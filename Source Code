@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+  
 
+  * {
+    margin: 0;
+    background-color: black;
+  }
+  
+  .navbar {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  li a {
+    padding: 10px 50px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  li a:hover {
+    animation: bounce 0.5s ;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
+.first {
+  
+  color: white;
+  min-block-size: 200vh;
+  min-inline-size: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  font-family: system-ui;
+  font-size: min(200%, 5vmin);
+  text-align: left;
+}
+
+h1 {
+  font-size: 90px;
+  margin: auto;
+  background: radial-gradient(
+    hsl(100 100% 60%), 
+    hsl(200 100% 60%) 
+  ) fixed;
+  background: conic-gradient(
+    hsl(100 100% 60%), 
+    hsl(200 100% 60%), 
+    hsl(100 100% 60%) 
+  ) fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.one{
+  text-align: left;
+  height: 250px;
+  padding-top: 2000px;
+
+}
+
+.two{
+  text-align: right;
+  height: 250px;
+}
+
+.three{
+  text-align: left;
+  height: 250px;
+  animation: dive infinite;
+}
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+  
+ 
+
+  <div class="first">
+    
+      <h1 class="one">Hi, my name is Vrushabh Mali</h1>
+      <h1 class="two">Software Developer</h1>
+      <h1 class="three">Bizzness MAN</h1>
+    
+  </div>
+<div class="fadeout"></div>
+  <div class="hero1">
+    <p>With my excellent problem-solving skills and keen attention to detail, I have a natural talent for identifying and resolving technical challenges</p>
+  </div>
+
+  <div class="fadeTop"></div>
+  
+  <div class="hero2">
+    <p>My passion for coding and software development is infectious, and I have some basic understanding of programming languages like Java, Python, and C++</p>
+  </div>
+
+  <div class="hero3">
+    <p>My ability to work collaboratively with other team members and my strong communication skills makes me an asset to any software engineering project.</p>
+  </div>
+
+  <div class="hero4">
+    <p></p>
+  </div>
+</body>
+</html>
